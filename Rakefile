@@ -149,7 +149,7 @@ task :release do
   # read the github_token via travis decrypt
 
   # create tag  for the latest commit
-  
+#  `git tag -a v0.0.4 -m "goHabitica-R-0.0.4"`
   # run `gorelaser`
   puts "Releasing to github"
 

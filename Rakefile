@@ -143,5 +143,18 @@ end
 
 ##########
 
+
+desc "Release"
+task :release do
+  # read the github_token via travis decrypt
+
+  # create tag  for the latest commit
+  
+  # run `gorelaser`
+  puts "Releasing to github"
+
+end
+
+##########
 #.DEFAULT_GOAL := build
 task :default => :version

@@ -146,6 +146,9 @@ end
 
 desc "Release"
 task :release do
+
+  #clean the dist before running this command
+#  `dist is not empty, remove it before running goreleaser or use the --rm-dist flag`
   # read the github_token via travis decrypt
 
   # create tag  for the latest commit

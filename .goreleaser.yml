@@ -1,10 +1,10 @@
-project_name: saigo
+project_name: goHabitica
 release:
   github:
     owner: abhi18av
-    name: saigo
+    name: goHabitica
 brew:
-  install: bin.install "saigo"
+  install: bin.install "goHabitica"
 builds:
 - goos:
   - linux
@@ -17,7 +17,7 @@ builds:
   - "6"
   main: .
   ldflags: -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
-  binary: saigo
+  binary: goHabitica
 archive:
   format: tar.gz
   name_template: '{{ .Binary }}_{{.Version}}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{

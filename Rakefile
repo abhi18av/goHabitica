@@ -155,12 +155,12 @@ end
 
 
 #build: ## Build a beta version
-#	go build -o ./bin/saigo ./cmd/saigo/main.go
+#	go build -o ./bin/goHabitica ./cmd/goHabitica/main.go
 
 
 desc "Build a beta version"
-task :build do
-	sh "go build -o ./bin/saigo ./main.go"
+task :beta do
+	sh "go build -o ./bin/goHabiticaBeta ./main.go"
 end
 
 ##########
